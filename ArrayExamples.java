@@ -36,6 +36,17 @@ public class ArrayExamples {
     return sum / (arr.length - 1);
   }
   
+  public static void main(String[] args) {
+    int[] x = new int[]{1, 2, 3, 4, 5};
+    double[] y = new double[]{};
+
+    for (int i = 0; i < x.length; i++) {
+      System.out.println(averageWithoutLowest(y));
+    }
+
+    
+
+  }
 
 }
 
