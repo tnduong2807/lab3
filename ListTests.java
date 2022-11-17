@@ -10,7 +10,7 @@ public class ListTests {
     @Test
     public void testFilter() {
         List<String> test1 = Arrays.asList(new String[]{"one", "two", "three"});
-        StringChecker sc = new ListExamples();
+        StringChecker sc = new StringChecker();
 
         List<String> result = ListExamples.filter(test1, sc);
         assertEquals(Arrays.asList(new String[]{"one", "two", "three"}), result);
